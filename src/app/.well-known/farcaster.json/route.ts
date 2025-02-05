@@ -5,11 +5,13 @@ export async function GET() {
 
   const config = {
     accountAssociation: {
-      header:
-        "eyJmaWQiOjM2MjEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgyY2Q4NWEwOTMyNjFmNTkyNzA4MDRBNkVBNjk3Q2VBNENlQkVjYWZFIn0",
-      payload: "eyJkb21haW4iOiJmcmFtZXMtdjIudmVyY2VsLmFwcCJ9",
-      signature:
-        "MHhiNDIwMzQ1MGZkNzgzYTExZjRiOTllZTFlYjA3NmMwOTdjM2JkOTY1NGM2ODZjYjkyZTAyMzk2Y2Q0YjU2MWY1MjY5NjI5ZGQ5NTliYjU0YzEwOGI4OGVmNjdjMTVlZTdjZDc2YTRiMGU5NzkzNzA3YzkxYzFkOWFjNTg0YmQzNjFi",
+      message: {
+        domain: "normancomicseth-nrmn-gateway.vercel.app",
+        timestamp: 1738716545,
+        expirationTime: 1746492545
+      },
+      signature: "f5f5a7c913c1b4dfc2807a5ae28c6d8a1b9ea9e8e6c8c05d16fe46bf96ce45994e4cadcf34011224e9ec2346c06ffdc28d45dc8dbd807eb54b8bff570c801d371c",
+      signingKey: "088d06f7651ecde2f0b37d15020e3edeee0bd8ed12984f9a058af5a0579ddb90"
     },
     frame: {
       version: "1",
